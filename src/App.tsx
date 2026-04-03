@@ -204,8 +204,8 @@ const SplashImage = ({ config, onEnter }: { config: AppConfig, onEnter: () => vo
         <div className="absolute inset-0 bg-black/20" />
       </div>
        <div className="text-center space-y-2">
-               <Shirt className="mx-auto text-[#D4AF37]" size={40} />
-               <h3 className="text-2xl font-display gold-text uppercase tracking-widest">30 de Abril</h3>
+               <Shirt className="mx-auto text-[#D4AF37]" size={30} />
+               <h3 className="text-2xl font-display gold-text uppercase tracking-widest">30 de Abril às 19h</h3>
              </div>
       <motion.div 
         initial={{ y: 50, opacity: 0 }}
