@@ -203,10 +203,7 @@ const SplashImage = ({ config, onEnter }: { config: AppConfig, onEnter: () => vo
       >
         <div className="absolute inset-0 bg-black/20" />
       </div>
-       <div className="text-center space-y-2">
-               <Shirt className="mx-auto text-[#D4AF37]" size={30} />
-               <h3 className="text-2xl font-display gold-text uppercase tracking-widest">30 de Abril às 19h</h3>
-             </div>
+      
       <motion.div 
         initial={{ y: 50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -719,11 +716,6 @@ const Home = ({ config }: { config: AppConfig }) => {
             {/* Interactive Buttons Overlay */}
             <div className="relative z-10 mt-auto mb-8 w-full flex flex-col items-center gap-2 px-6">
               <OrnateButton 
-                icon={CheckCircle2} 
-                label="Confirmar Presença" 
-                onClick={() => window.open(config.whatsapp_link, '_blank')} 
-              />
-              <OrnateButton 
                 icon={MapPin} 
                 label="Local" 
                 onClick={() => navigate('/local')} 
@@ -737,6 +729,11 @@ const Home = ({ config }: { config: AppConfig }) => {
                 icon={Shirt} 
                 label="Dress Code" 
                 onClick={() => navigate('/dresscode')} 
+              />
+              <OrnateButton 
+                icon={CheckCircle2} 
+                label="Confirmar Presença" 
+                onClick={() => window.open(config.whatsapp_link, '_blank')} 
               />
               
               <div className="mt-4 flex gap-6">

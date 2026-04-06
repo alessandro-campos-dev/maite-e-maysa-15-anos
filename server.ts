@@ -40,7 +40,7 @@ db.exec(`
 const defaultConfig = {
   welcome_text: "Você é nosso convidado especial para celebrar esse momento único do aniversário de 15 anos de Maitê e Maysa!",
   event_date: "30 de abril de 2026",
-  whatsapp_link: "https://wa.me/5562981127177",
+  whatsapp_link: "https://chat.whatsapp.com/JT6xbkr5TBLDa7035h1Pi7",
   location_name: "Nativas Grill",
   location_address: "Rua 89, nº 117 - Setor Sul, Goiânia - GO",
   location_map_link: "https://www.google.com/maps/search/?api=1&query=Nativas+Grill+Goiânia",
@@ -54,7 +54,7 @@ const defaultConfig = {
   gift_cosmetics: "Cosméticos",
   splash_image: "/images/background-home.png",
   hollywood_bg: "/images/background-home.png",
-  video_url: "https://www.youtube.com/embed/fQMRVzIoNSg"
+  video_url: "https://youtube.com/shorts/GXqgZEsc24U?feature=share"
 };
 
 // Initialize config if empty or update video_url if it was the old one
